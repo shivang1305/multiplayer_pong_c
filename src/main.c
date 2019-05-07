@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
 
   int count = 3;
 
-  // idk what is this, just go along
+  // sets the memory with different values
   memset(&app, 0, sizeof(App));
   memset(&player1, 0, sizeof(Object));
   memset(&player2, 0, sizeof(Object));
